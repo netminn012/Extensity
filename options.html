@@ -15,8 +15,8 @@
   <div class="tabs">
   	<h1><img src="images/icon48.png" /> Extensity Options</h1>
   	<div id="menu">
-    	<a href="/options.html" class="selected">Options</a>
-    	<a href="/profiles.html">Profiles</a>
+    	<a href="/options.html" class="selected">オプション</a>
+    	<a href="/profiles.html">プロファイル</a>
   	</div>
   </div>
   <div class="help">
@@ -27,61 +27,61 @@
 <div class="clear"></div>
 <section id="content">
 	<fieldset id="options">
-    <legend>Layout</legend>
+    <legend>レイアウト</legend>
     <div class="field">
       <input type="checkbox" name="showHeader" id="showHeader" data-sbind="checked: options.showHeader" />
       <label for="showHeader">
-        Show header at the top
+        上部にヘッダーを表示
       </label>
     </div>
     <div class="field">
       <input type="checkbox" name="searchBox" id="searchBox" data-sbind="checked: options.searchBox"/>
       <label for="searchBox">
-        Show search box
+      検査ボックスを表示
       </label>
     </div>
     <legend>Apps &amp; Extensions</legend>
 		<div class="field">
 			<input type="checkbox" name="groupApps" id="groupApps" data-sbind="checked: options.groupApps" />
 			<label for="groupApps">
-				Group Apps and Extensions
+				アプリと拡張機能をグループ化
 			</label>
 		</div>
 		<div class="field">
 			<input type="checkbox" name="appsFirst" id="appsFirst" data-sbind="checked: options.appsFirst"/>
 			<label for="appsFirst">
-				Show Apps first when grouped
+				グループ化されたアプリを最初に表示
 			</label>
 		</div>
     <div class="field">
       <input type="checkbox" name="appsFirst" id="enabledFirst" data-sbind="checked: options.enabledFirst"/>
       <label for="enabledFirst">
-        Show enabled Extensions at the top
+        有効な拡張機能を先に表示
       </label>
     </div>
     <div class="field">
       <input type="checkbox" name="showOptions" id="showOptions" data-sbind="checked: options.showOptions"/>
       <label for="showOptions">
-        Show options icon for each item
+        各アイテムにオプションを表示
       </label>
     </div>
-    <legend>Always On</legend>
+    <legend>常に有効</legend>
     <div class="field">
       <input type="checkbox" name="showReserved" id="showReserved" data-sbind="checked: options.showReserved"/>
       <label for="showReserved">
-        Show Always On profile in the list
+        常時有効のプロファイルをリストに表示する
       </label>
     </div>
     <div class="field">
       <input type="checkbox" name="keepAlwaysOn" id="keepAlwaysOn" data-sbind="checked: options.keepAlwaysOn"/>
       <label for="keepAlwaysOn">
-        Keep Always On extensions enabled when switching everything off
+        すべての機能をオフにしても、常時有効の拡張機能を有効にしておく
       </label>
     </div>
 		<div class="field">
-			<button id="save" data-sbind="click: save">Save</button>&nbsp;
-			<a href="#" id="close" data-sbind="click: close">Close</a>
-			<span id="save-result" class="hidden">| Saved!</span>
+			<button id="save" data-sbind="click: save">保存</button>&nbsp;
+			<a href="#" id="close" data-sbind="click: close">閉じる</a>
+			<span id="save-result" class="hidden">| 保存完了!</span>
 		</div>
 	</fieldset>
 </section>
